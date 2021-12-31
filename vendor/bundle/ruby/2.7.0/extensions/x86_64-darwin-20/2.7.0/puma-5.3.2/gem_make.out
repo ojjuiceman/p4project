@@ -1,0 +1,25 @@
+current directory: /private/var/folders/6s/gfjb7hz91gv94wjxt13dzxbc0000gn/T/bundler20211229-6771-2xom3xpuma-5.3.2/gems/puma-5.3.2/ext/puma_http11
+/Users/okerajohnson/.rvm/rubies/ruby-2.7.4/bin/ruby -I /Users/okerajohnson/.rvm/rubies/ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20211229-6771-1xpjcvl.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version(NULL, 0) in openssl/ssl.h... yes
+checking for X509_STORE_up_ref()... yes
+checking for SSL_CTX_set_ecdh_auto(NULL, 0) in openssl/ssl.h... yes
+creating Makefile
+
+current directory: /private/var/folders/6s/gfjb7hz91gv94wjxt13dzxbc0000gn/T/bundler20211229-6771-2xom3xpuma-5.3.2/gems/puma-5.3.2/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /private/var/folders/6s/gfjb7hz91gv94wjxt13dzxbc0000gn/T/bundler20211229-6771-2xom3xpuma-5.3.2/gems/puma-5.3.2/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.bundle
+
+current directory: /private/var/folders/6s/gfjb7hz91gv94wjxt13dzxbc0000gn/T/bundler20211229-6771-2xom3xpuma-5.3.2/gems/puma-5.3.2/ext/puma_http11
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 puma_http11.bundle ./.gem.20211229-6771-eci1c5/puma
