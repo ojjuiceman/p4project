@@ -6,11 +6,11 @@ function App() {
   const [listings, setListings] = useState([]);
   const [search, setSearch] = useState("");
 
-  useEffect(() => {
-    fetch("http://localhost:6001/listings")
-      .then((r) => r.json())
-      .then(setListings);
-  }, []);
+ // useEffect(() => {
+   // fetch("http://localhost:3000/")
+    //  .then((r) => r.json())
+     // .then(setListings);
+ // }, []);
 
   function handleRemoveListing(id) {
     const newListings = listings.filter((listing) => listing.id !== id);
